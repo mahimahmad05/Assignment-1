@@ -1,0 +1,157 @@
+
+@media (max-width: 425px) {
+    nav {
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+    }
+  
+    nav h1 {
+      font-size: 24px;
+    }
+  
+    button {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    #main-bnar,
+    #main-bnar-two {
+      flex-direction: column;
+      padding: 24px;
+      text-align: center;
+      gap: 24px;
+    }
+  
+    #main-bnar-two {
+      flex-direction: column-reverse;
+    }
+  
+    #writen h1,
+    #writen-two h1 {
+      font-size: 22px;
+    }
+  
+    #writen p,
+    #writen-two p {
+      font-size: 14px;
+    }
+  
+    #card-grup {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card-one {
+      width: 90%;
+      margin: 16px 0;
+      padding: 24px;
+      text-align: center;
+    }
+  
+    #he h1 {
+      font-size: 22px;
+    }
+  
+    #he p {
+      font-size: 14px;
+      padding: 0 16px;
+    }
+  
+    footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 24px;
+      gap: 16px;
+    }
+  
+    .socials {
+      justify-content: center;
+      gap: 16px;
+    }
+  
+    iframe {
+      width: 100% !important;
+      height: auto !important;
+    }
+  
+    #baner-cont-vdo {
+      padding: 16px;
+      margin: 50px auto;
+    }
+  }
+  
+  
+ 
+  @media (min-width: 426px) and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+    }
+  
+    nav h1 {
+      font-size: 28px;
+    }
+  
+    button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    #main-bnar,
+    #main-bnar-two {
+      flex-direction: column;
+      padding: 32px;
+      text-align: center;
+      gap: 32px;
+    }
+  
+    #main-bnar-two {
+      flex-direction: column-reverse;
+    }
+  
+    #writen h1,
+    #writen-two h1 {
+      font-size: 28px;
+    }
+  
+    #writen p,
+    #writen-two p {
+      font-size: 16px;
+    }
+  
+    #card-grup {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card-one {
+      width: 80%;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+  
+    footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 32px;
+      gap: 24px;
+    }
+  
+    .socials {
+      justify-content: center;
+    }
+  
+    iframe {
+      width: 100% !important;
+      height: auto !important;
+    }
+  
+    #baner-cont-vdo {
+      padding: 24px;
+      margin: 80px auto;
+    }
+  }
+  
